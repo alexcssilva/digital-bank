@@ -22,7 +22,7 @@ const transferValue = async (req, res) => {
 
   const verifyBalance = await validateBalance(cpfSender, balance);
 
-  if (balance > 2000) {
+  if (balance >= 2000) {
     return res.status(201).json({ message: "Value above allowed" });
   } else if (verifyBalance === true) {
     await transferBalance(cpfSender, cpf, balance);
