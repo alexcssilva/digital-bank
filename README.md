@@ -24,6 +24,7 @@ Foi proposto para desenvolver o back-end para com arquitetura API REST. Optei po
 - [Jest](https://jestjs.io/pt-BR/)
 - [ChaiJs](https://www.chaijs.com/)
 - [SinonJs](https://sinonjs.org/)
+- [ReactJs](https://pt-br.reactjs.org/)
 
 # Sobre o que foi desenvolvido no projeto:
 👨🏾‍💻 Foram utilizadas metodologias que são aplicadas no mercado de trabalho, principalmente na organização das pastas e o nome de cada uma delas, ja sendo feito pensando em atualizações futuras, com a pesquisa orientada a pastas e não só a arquivos, pois em uma grande aplicação muitos nomes de arquivos podem se repetir.
@@ -67,3 +68,9 @@ Foi proposto para desenvolver o back-end para com arquitetura API REST. Optei po
       "cpf": "92884402839",
       "balance": "401.65"
     }
+
+## Como utilizar a aplicação com o Front-end
+
+### 1 - o docker-compose com o comando passado acima, precisa estar ativo.
+
+### 2 - Faça transferências ilimitadas para seus amigos de Nárnia 😄
