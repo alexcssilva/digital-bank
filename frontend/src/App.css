@@ -39,6 +39,7 @@ button {
   height: 40px;
   border-radius: 8px;
   flex-wrap: wrap;
+  cursor: pointer;
 }
 
 .nav-container {
@@ -61,7 +62,8 @@ button {
   text-align: center;
   flex-wrap: wrap;
   margin: auto;
-  justify-content: space-around
+  justify-content: space-around;
+  cursor: pointer;
 }
 
 .button-nav:hover {
