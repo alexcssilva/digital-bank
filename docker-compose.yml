@@ -2,11 +2,11 @@ version: "3"
 
 services:
   node_backend:
-    build: .
+    build: ./backend
     container_name: node_backend
     restart: always
     volumes:
-      - ./:/digital-bank
+      - ./backend:/digital-bank
     depends_on:
       - mysql_db
     ports:
